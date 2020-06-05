@@ -1,0 +1,195 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	color: #757575;
+	margin: 0 auto;
+	text-align: left;
+	max-width: 1100px;
+	padding: 25px 70px;
+	font-size: 14px;
+	line-height: 22px;
+	min-height: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	justify-content: space-between;
+}
+
+a, a:visited {
+	color: #fff;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* --------------- /базовые настройки ---------*/
+
+header {
+	display: flex;
+	border-bottom: 1px solid #000;
+	flex: 0 0 auto;
+}
+
+.header--settings {
+	color: #fff;
+	margin-bottom: 20px;
+	background: #777;
+	padding: 15px;
+	border: 1px solid #939393;
+	border-top: 1px solid #adadad;
+	flex-grow: 2;
+	margin-right: 20px;
+}
+
+.header-logo {
+	width: 10%;
+	flex-grow: 1;
+	padding: 0;
+	border: none;
+}
+
+.header-info {
+	flex-grow: 1;
+	padding: 25px;
+	margin-right: 0;
+}
+
+
+content {
+	display: flex;
+	margin-top: 20px;
+	flex: 1 0 auto;
+}
+
+aside {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+nav {
+	width: 150px;
+	background: #777;
+	padding: 10px 15px;
+}
+
+nav h1 {
+	color: #fff;
+	font-weight: 600;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+.siderbar__img {
+	width: 180px;
+}
+
+main {
+	margin-left: 25px;
+	display: flex;
+	flex-direction: column;
+}
+
+.main-top {
+	text-align: left;
+	padding: 10px 15px;
+	background: #dcdcdc;
+}
+
+.main-top ul li {
+	list-style: square;
+	margin-left: 40px;
+}
+
+.main-imgs {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.main-imgs__item {
+	padding: 10px 0;
+	max-width: 20%;
+	flex-grow: 1;
+}
+
+.main-bottom--flex {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.main-bottom {
+	background: #dcdcdc;
+	padding: 10px 15px;
+	margin-right: 20px;
+}
+
+.main-bottom:last-child {
+	margin-right: 0;
+}
+
+footer {
+	display: flex;
+	margin-top: 20px;
+	border-top: 1px solid #000;
+	padding-bottom: 15px;
+}
+
+.footer--settings {
+	background: #777;
+	margin-top: 20px;
+	margin-right: 25px;
+	color: #fff;
+	flex-grow: 1;
+}
+
+.footer-menu {
+	padding: 15px 25px;
+}
+
+.footer-menu ul {
+	column-count: 2;
+}
+
+.footer-tariff {
+	padding: 15px 25px;
+}
+
+.footer-tariff li {
+	list-style: square;
+	color: #fff;
+}
+
+.footer-about {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background: none;
+	margin-right: 0;
+	width: 250px;
+}
+
+.footer-about__contacts {
+	background: #777;
+	padding: 15px 15px;
+}
+
+.footer-about__img {
+	margin-top: 10px;
+}
